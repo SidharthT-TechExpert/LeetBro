@@ -1,0 +1,35 @@
+{
+  "name": "leetmate",
+  "version": "1.0.0",
+  "description": "This platform lets users collect, share, and solve coding questions, creating a community-driven resource for learning and interview prep.",
+  "homepage": "https://github.com/SidharthT-TechExpert/LeetBro#readme",
+  "bugs": {
+    "url": "https://github.com/SidharthT-TechExpert/LeetBro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SidharthT-TechExpert/LeetBro.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.3",
+    "globals": "^17.4.0"
+  }
+}
